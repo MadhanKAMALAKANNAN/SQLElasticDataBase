@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Madhan\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Madhan\.nuget\packages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.8\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.8\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\Madhan\.nuget\packages\entityframework\6.4.4</PkgEntityFramework>
+    <PkgEnterpriseLibrary_TransientFaultHandling Condition=" '$(PkgEnterpriseLibrary_TransientFaultHandling)' == '' ">C:\Users\Madhan\.nuget\packages\enterpriselibrary.transientfaulthandling\6.0.1304</PkgEnterpriseLibrary_TransientFaultHandling>
+    <PkgEnterpriseLibrary_TransientFaultHandling_WindowsAzure_Storage Condition=" '$(PkgEnterpriseLibrary_TransientFaultHandling_WindowsAzure_Storage)' == '' ">C:\Users\Madhan\.nuget\packages\enterpriselibrary.transientfaulthandling.windowsazure.storage\6.0.1304</PkgEnterpriseLibrary_TransientFaultHandling_WindowsAzure_Storage>
+    <PkgEnterpriseLibrary_TransientFaultHandling_ServiceBus Condition=" '$(PkgEnterpriseLibrary_TransientFaultHandling_ServiceBus)' == '' ">C:\Users\Madhan\.nuget\packages\enterpriselibrary.transientfaulthandling.servicebus\6.0.1304</PkgEnterpriseLibrary_TransientFaultHandling_ServiceBus>
+    <PkgEnterpriseLibrary_TransientFaultHandling_Data Condition=" '$(PkgEnterpriseLibrary_TransientFaultHandling_Data)' == '' ">C:\Users\Madhan\.nuget\packages\enterpriselibrary.transientfaulthandling.data\6.0.1304.1</PkgEnterpriseLibrary_TransientFaultHandling_Data>
+    <PkgEnterpriseLibrary_TransientFaultHandling_Caching Condition=" '$(PkgEnterpriseLibrary_TransientFaultHandling_Caching)' == '' ">C:\Users\Madhan\.nuget\packages\enterpriselibrary.transientfaulthandling.caching\6.0.1304</PkgEnterpriseLibrary_TransientFaultHandling_Caching>
+    <PkgEnterpriseLibrary_Common Condition=" '$(PkgEnterpriseLibrary_Common)' == '' ">C:\Users\Madhan\.nuget\packages\enterpriselibrary.common\6.0.1304</PkgEnterpriseLibrary_Common>
+    <PkgEnterpriseLibrary_TransientFaultHandling_Configuration Condition=" '$(PkgEnterpriseLibrary_TransientFaultHandling_Configuration)' == '' ">C:\Users\Madhan\.nuget\packages\enterpriselibrary.transientfaulthandling.configuration\6.0.1304</PkgEnterpriseLibrary_TransientFaultHandling_Configuration>
+  </PropertyGroup>
+</Project>

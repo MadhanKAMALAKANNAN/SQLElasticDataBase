@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\Madhan\\source\\repos\\SQLElasticDataBase\\SQLElasticDataBase\\SQLElasticDataBase.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\Madhan\\source\\repos\\SQLElasticDataBase\\SQLElasticDataBase\\SQLElasticDataBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Madhan\\source\\repos\\SQLElasticDataBase\\SQLElasticDataBase\\SQLElasticDataBase.csproj",
+        "projectName": "SQLElasticDataBase",
+        "projectPath": "D:\\Users\\Madhan\\source\\repos\\SQLElasticDataBase\\SQLElasticDataBase\\SQLElasticDataBase.csproj",
+        "packagesPath": "C:\\Users\\Madhan\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Madhan\\source\\repos\\SQLElasticDataBase\\SQLElasticDataBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Madhan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EnterpriseLibrary.TransientFaultHandling.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1304, )"
+            },
+            "EnterpriseLibrary.TransientFaultHandling.Data": {
+              "target": "Package",
+              "version": "[6.0.1304.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.Azure.SqlDatabase.ElasticScale.Client": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ServiceBus": {
+              "target": "Package",
+              "version": "[6.0.1304, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.Entity.Repository": {
+              "target": "Package",
+              "version": "[2.0.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
