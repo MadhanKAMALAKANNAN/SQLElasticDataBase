@@ -92,16 +92,11 @@ namespace SQLElasticDataBase
 
             if (shardMap!=null)
             {
-                Shard shard = shardMap.GetShards().OrderByDescending(x => x.Location.Database).FirstOrDefault();
+                Shard shard = shardMap.GetShards().OrderByDescending(x => x.Location.Database).FirstOrDefault();//only one shard per shardMap;
                 Console.WriteLine("Shard Map {0} already exists", shardMap.Name);
                 sharding.CrerateShardIfNotExists(shardMap,shard, allowedMaxRangePerShard, shardMapName1);
             }
-            //else
-            //{
-            //    //// The Shard Map does not exist, so create it
-            //    //shardMap = shardMapManager.CreateRangeShardMap<int>(shardMapName);
-            //    //Console.WriteLine("Created Shard Map {0}", shardMap.Name);
-            //}
+           
 
             return shardMap;
         }
@@ -112,7 +107,7 @@ namespace SQLElasticDataBase
             shardMapeName = shardMapeName + LastShard; 
             return sharding.shardMapManager.GetRangeShardMap<int>(shardMapeName); 
         }
-
+       
         /// <summary>
         /// Adds Shards to the Shard Map, or returns them if they have already been added.
         /// </summary>

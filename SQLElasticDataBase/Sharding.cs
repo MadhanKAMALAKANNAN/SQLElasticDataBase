@@ -78,7 +78,7 @@ namespace SQLElasticDataBase
                 }
                 else //check if need to create new shard and get the new range
                 {
-                    Shard shard = shardRangeMap.GetShards().OrderByDescending(x => x.Location.Database).FirstOrDefault();
+                    Shard shard = shardRangeMap.GetShards().OrderByDescending(x => x.Location.Database).FirstOrDefault();//only one shard per shardMap;
                     //checked if shard with above range exist
                     //int currentMinHighKey = shardRangeMap.GetMappings().Max(m => m.Value.Low) ;//22/09/2022
                     CrerateShardIfNotExists(shardRangeMap,shard, allowedMaxRangePerShard, config["Shard00DatabaseName"]);
